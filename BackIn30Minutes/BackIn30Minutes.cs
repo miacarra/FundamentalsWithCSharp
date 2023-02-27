@@ -16,32 +16,34 @@ namespace BackIn30Minutes
             //Output
             //Print on the console the time after 30 minutes.The result should be in format hh:mm.The hours may contain one or two numbers and the minutes always have two numbers(with leading zero).
 
-            
 
-            int hour =int.Parse(Console.ReadLine());
-            int minutes =int.Parse(Console.ReadLine());
+
+            int hour = int.Parse(Console.ReadLine());
+            int minutes = int.Parse(Console.ReadLine());
             int updatedHour;
-            int updatedMin=minutes+30;
-
+            int updatedMin = minutes + 30;
+            string message=string.Empty;
 
             if (minutes < 30)
             {
                 updatedMin = minutes + 30;
                 updatedHour = hour;
-                 Console.WriteLine($"{updatedHour}{updatedMin:D2}");
+                message = $"{updatedHour}:{updatedMin:D2}";
             }
-            else if (minutes > 30)
+            else if (minutes >= 30)
             {
                 updatedHour = hour + 1;
                 updatedMin -= 60;
 
-                if (hour == 24)
+                if (updatedHour == 24)
                 {
                     updatedHour = 0;
-                    updatedMin -= 60;
+
                 }
-                Console.WriteLine($"{updatedHour}{updatedMin:D2}");
+                message = $"{updatedHour}:{updatedMin:D2}";
             }
+
+            Console.WriteLine(message);
         }
-    }
+     }
 }
