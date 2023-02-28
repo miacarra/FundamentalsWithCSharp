@@ -26,7 +26,7 @@ namespace BackIn30Minutes
 
             if (minutes < 30)
             {
-                updatedMin = minutes + 30;
+                //updatedMin = minutes + 30;
                 updatedHour = hour;
                 message = $"{updatedHour}:{updatedMin:D2}";
             }
