@@ -13,6 +13,7 @@ class HolidaysBetweenTwoDates
 
     static void Main()
     { 
+        //optional  
         string inputstart = Console.ReadLine();
         string inputlast = Console.ReadLine();
         string format = "d.M.yyyy";
@@ -27,6 +28,24 @@ class HolidaysBetweenTwoDates
             
         }
             Console.WriteLine(holidayscount);
+
+
+
+
+        // More effective
+        string[] formats = { "d.MM.yyyy", "d.M.yyyy" };
+        var startDate = DateTime.ParseExact(Console.ReadLine(),
+            "d.M.yyyy", CultureInfo.InvariantCulture);
+        var endDate = DateTime.ParseExact(Console.ReadLine(),
+            "d.M.yyyy", CultureInfo.InvariantCulture);
+        var holidaysCount = 0;
+        for (var date = startDate; date <= endDate; date = date.AddDays(1))
+        {
+            //Console.WriteLine(date.DayOfWeek);
+            if (date.DayOfWeek == DayOfWeek.Saturday || date.DayOfWeek == DayOfWeek.Sunday)
+                holidaysCount++;
+        }
+        Console.WriteLine(holidaysCount);
 
 
 
