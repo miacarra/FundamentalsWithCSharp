@@ -21,13 +21,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NumbersDivisibleBy3", "Divi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SumOddNumbers", "SumOddNumbers\SumOddNumbers.csproj", "{2E6726A8-149D-443F-B4F0-2BC0EB7A6185}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationTable", "MultiplicationTable\MultiplicationTable.csproj", "{CF286CED-C627-4A4E-A3DA-741B95BF822A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicationTable", "MultiplicationTable\MultiplicationTable.csproj", "{CF286CED-C627-4A4E-A3DA-741B95BF822A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiplicationTable2.0", "MultiplicationTable2.0\MultiplicationTable2.0.csproj", "{1B03DD2F-4E08-4D79-8EA6-04622908AC1C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiplicationTable2.0", "MultiplicationTable2.0\MultiplicationTable2.0.csproj", "{1B03DD2F-4E08-4D79-8EA6-04622908AC1C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EvenNumber", "EvenNumber\EvenNumber.csproj", "{44D2CEA3-C0AF-45EF-8F76-21855FE03103}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EvenNumber", "EvenNumber\EvenNumber.csproj", "{44D2CEA3-C0AF-45EF-8F76-21855FE03103}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Holidays Between Two Dates", "Holidays Between Two Dates\Holidays Between Two Dates.csproj", "{A34AF309-4F6F-4A36-959A-26070849551E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Holidays Between Two Dates", "Holidays Between Two Dates\Holidays Between Two Dates.csproj", "{A34AF309-4F6F-4A36-959A-26070849551E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ages", "Ages\Ages.csproj", "{65872C6E-E20E-4F77-8E18-A6C8C56FADC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Divisible", "Divisible\Divisible.csproj", "{8B7BF95F-6D98-4440-A3CC-2AAD50BEA942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Vacation", "Vacation\Vacation.csproj", "{49028C62-B288-4BF7-8AEC-BC4E4D6451E8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -87,6 +93,18 @@ Global
 		{A34AF309-4F6F-4A36-959A-26070849551E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A34AF309-4F6F-4A36-959A-26070849551E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A34AF309-4F6F-4A36-959A-26070849551E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65872C6E-E20E-4F77-8E18-A6C8C56FADC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65872C6E-E20E-4F77-8E18-A6C8C56FADC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65872C6E-E20E-4F77-8E18-A6C8C56FADC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65872C6E-E20E-4F77-8E18-A6C8C56FADC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B7BF95F-6D98-4440-A3CC-2AAD50BEA942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B7BF95F-6D98-4440-A3CC-2AAD50BEA942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B7BF95F-6D98-4440-A3CC-2AAD50BEA942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B7BF95F-6D98-4440-A3CC-2AAD50BEA942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49028C62-B288-4BF7-8AEC-BC4E4D6451E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49028C62-B288-4BF7-8AEC-BC4E4D6451E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49028C62-B288-4BF7-8AEC-BC4E4D6451E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49028C62-B288-4BF7-8AEC-BC4E4D6451E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
